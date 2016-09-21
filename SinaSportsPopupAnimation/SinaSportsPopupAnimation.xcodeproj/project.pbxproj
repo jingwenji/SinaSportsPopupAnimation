@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0652D7AD1D91340D005D3929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7AC1D91340D005D3929 /* main.m */; };
+		0652D7B01D91340D005D3929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7AF1D91340D005D3929 /* AppDelegate.m */; };
+		0652D7B31D91340D005D3929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7B21D91340D005D3929 /* ViewController.m */; };
+		0652D7B61D91340D005D3929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0652D7B41D91340D005D3929 /* Main.storyboard */; };
+		0652D7B81D91340D005D3929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0652D7B71D91340D005D3929 /* Assets.xcassets */; };
+		0652D7BB1D91340D005D3929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0652D7B91D91340D005D3929 /* LaunchScreen.storyboard */; };
+		0652D7C61D91340D005D3929 /* SinaSportsPopupAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7C51D91340D005D3929 /* SinaSportsPopupAnimationTests.m */; };
+		0652D7D11D91340D005D3929 /* SinaSportsPopupAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7D01D91340D005D3929 /* SinaSportsPopupAnimationUITests.m */; };
+		0652D7E01D913591005D3929 /* HDFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652D7DF1D913591005D3929 /* HDFCollectionViewCell.m */; };
+		068C1C101D922EAF00FEAF83 /* NSObject+HDFPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 068C1C0F1D922EAF00FEAF83 /* NSObject+HDFPattern.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0652D7C21D91340D005D3929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0652D7A01D91340D005D3929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0652D7A71D91340D005D3929;
+			remoteInfo = SinaSportsPopupAnimation;
+		};
+		0652D7CD1D91340D005D3929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0652D7A01D91340D005D3929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0652D7A71D91340D005D3929;
+			remoteInfo = SinaSportsPopupAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0652D7A81D91340D005D3929 /* SinaSportsPopupAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaSportsPopupAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0652D7AC1D91340D005D3929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0652D7AE1D91340D005D3929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0652D7AF1D91340D005D3929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0652D7B11D91340D005D3929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0652D7B21D91340D005D3929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0652D7B51D91340D005D3929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0652D7B71D91340D005D3929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0652D7BA1D91340D005D3929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0652D7BC1D91340D005D3929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0652D7C11D91340D005D3929 /* SinaSportsPopupAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaSportsPopupAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0652D7C51D91340D005D3929 /* SinaSportsPopupAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaSportsPopupAnimationTests.m; sourceTree = "<group>"; };
+		0652D7C71D91340D005D3929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0652D7CC1D91340D005D3929 /* SinaSportsPopupAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaSportsPopupAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0652D7D01D91340D005D3929 /* SinaSportsPopupAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaSportsPopupAnimationUITests.m; sourceTree = "<group>"; };
+		0652D7D21D91340D005D3929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0652D7DE1D913591005D3929 /* HDFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDFCollectionViewCell.h; sourceTree = "<group>"; };
+		0652D7DF1D913591005D3929 /* HDFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDFCollectionViewCell.m; sourceTree = "<group>"; };
+		0652D7E21D9136D1005D3929 /* hdf-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hdf-PrefixHeader.pch"; sourceTree = "<group>"; };
+		0652D8221D9139AF005D3929 /* NormalPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalPattern.h; sourceTree = "<group>"; };
+		068C1C0E1D922EAF00FEAF83 /* NSObject+HDFPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HDFPattern.h"; sourceTree = "<group>"; };
+		068C1C0F1D922EAF00FEAF83 /* NSObject+HDFPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HDFPattern.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0652D7A51D91340D005D3929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7BE1D91340D005D3929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7C91D91340D005D3929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0652D79F1D91340D005D3929 = {
+			isa = PBXGroup;
+			children = (
+				0652D7AA1D91340D005D3929 /* SinaSportsPopupAnimation */,
+				0652D7C41D91340D005D3929 /* SinaSportsPopupAnimationTests */,
+				0652D7CF1D91340D005D3929 /* SinaSportsPopupAnimationUITests */,
+				0652D7A91D91340D005D3929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0652D7A91D91340D005D3929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7A81D91340D005D3929 /* SinaSportsPopupAnimation.app */,
+				0652D7C11D91340D005D3929 /* SinaSportsPopupAnimationTests.xctest */,
+				0652D7CC1D91340D005D3929 /* SinaSportsPopupAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0652D7AA1D91340D005D3929 /* SinaSportsPopupAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7AE1D91340D005D3929 /* AppDelegate.h */,
+				0652D7AF1D91340D005D3929 /* AppDelegate.m */,
+				0652D7B11D91340D005D3929 /* ViewController.h */,
+				0652D7B21D91340D005D3929 /* ViewController.m */,
+				0652D7DE1D913591005D3929 /* HDFCollectionViewCell.h */,
+				0652D7DF1D913591005D3929 /* HDFCollectionViewCell.m */,
+				0652D8231D913BC5005D3929 /* gradients */,
+				0652D7B41D91340D005D3929 /* Main.storyboard */,
+				0652D7B71D91340D005D3929 /* Assets.xcassets */,
+				0652D7B91D91340D005D3929 /* LaunchScreen.storyboard */,
+				0652D7BC1D91340D005D3929 /* Info.plist */,
+				0652D7AB1D91340D005D3929 /* Supporting Files */,
+			);
+			path = SinaSportsPopupAnimation;
+			sourceTree = "<group>";
+		};
+		0652D7AB1D91340D005D3929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7AC1D91340D005D3929 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0652D7C41D91340D005D3929 /* SinaSportsPopupAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7C51D91340D005D3929 /* SinaSportsPopupAnimationTests.m */,
+				0652D7C71D91340D005D3929 /* Info.plist */,
+			);
+			path = SinaSportsPopupAnimationTests;
+			sourceTree = "<group>";
+		};
+		0652D7CF1D91340D005D3929 /* SinaSportsPopupAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7D01D91340D005D3929 /* SinaSportsPopupAnimationUITests.m */,
+				0652D7D21D91340D005D3929 /* Info.plist */,
+			);
+			path = SinaSportsPopupAnimationUITests;
+			sourceTree = "<group>";
+		};
+		0652D8231D913BC5005D3929 /* gradients */ = {
+			isa = PBXGroup;
+			children = (
+				0652D7E21D9136D1005D3929 /* hdf-PrefixHeader.pch */,
+				0652D8221D9139AF005D3929 /* NormalPattern.h */,
+				068C1C0E1D922EAF00FEAF83 /* NSObject+HDFPattern.h */,
+				068C1C0F1D922EAF00FEAF83 /* NSObject+HDFPattern.m */,
+			);
+			name = gradients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0652D7A71D91340D005D3929 /* SinaSportsPopupAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0652D7D51D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimation" */;
+			buildPhases = (
+				0652D7A41D91340D005D3929 /* Sources */,
+				0652D7A51D91340D005D3929 /* Frameworks */,
+				0652D7A61D91340D005D3929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaSportsPopupAnimation;
+			productName = SinaSportsPopupAnimation;
+			productReference = 0652D7A81D91340D005D3929 /* SinaSportsPopupAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0652D7C01D91340D005D3929 /* SinaSportsPopupAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0652D7D81D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimationTests" */;
+			buildPhases = (
+				0652D7BD1D91340D005D3929 /* Sources */,
+				0652D7BE1D91340D005D3929 /* Frameworks */,
+				0652D7BF1D91340D005D3929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0652D7C31D91340D005D3929 /* PBXTargetDependency */,
+			);
+			name = SinaSportsPopupAnimationTests;
+			productName = SinaSportsPopupAnimationTests;
+			productReference = 0652D7C11D91340D005D3929 /* SinaSportsPopupAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0652D7CB1D91340D005D3929 /* SinaSportsPopupAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0652D7DB1D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimationUITests" */;
+			buildPhases = (
+				0652D7C81D91340D005D3929 /* Sources */,
+				0652D7C91D91340D005D3929 /* Frameworks */,
+				0652D7CA1D91340D005D3929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0652D7CE1D91340D005D3929 /* PBXTargetDependency */,
+			);
+			name = SinaSportsPopupAnimationUITests;
+			productName = SinaSportsPopupAnimationUITests;
+			productReference = 0652D7CC1D91340D005D3929 /* SinaSportsPopupAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0652D7A01D91340D005D3929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HDF;
+				TargetAttributes = {
+					0652D7A71D91340D005D3929 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0652D7C01D91340D005D3929 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0652D7A71D91340D005D3929;
+					};
+					0652D7CB1D91340D005D3929 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0652D7A71D91340D005D3929;
+					};
+				};
+			};
+			buildConfigurationList = 0652D7A31D91340D005D3929 /* Build configuration list for PBXProject "SinaSportsPopupAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0652D79F1D91340D005D3929;
+			productRefGroup = 0652D7A91D91340D005D3929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0652D7A71D91340D005D3929 /* SinaSportsPopupAnimation */,
+				0652D7C01D91340D005D3929 /* SinaSportsPopupAnimationTests */,
+				0652D7CB1D91340D005D3929 /* SinaSportsPopupAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0652D7A61D91340D005D3929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0652D7BB1D91340D005D3929 /* LaunchScreen.storyboard in Resources */,
+				0652D7B81D91340D005D3929 /* Assets.xcassets in Resources */,
+				0652D7B61D91340D005D3929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7BF1D91340D005D3929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7CA1D91340D005D3929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0652D7A41D91340D005D3929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0652D7B31D91340D005D3929 /* ViewController.m in Sources */,
+				0652D7B01D91340D005D3929 /* AppDelegate.m in Sources */,
+				068C1C101D922EAF00FEAF83 /* NSObject+HDFPattern.m in Sources */,
+				0652D7AD1D91340D005D3929 /* main.m in Sources */,
+				0652D7E01D913591005D3929 /* HDFCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7BD1D91340D005D3929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0652D7C61D91340D005D3929 /* SinaSportsPopupAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0652D7C81D91340D005D3929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0652D7D11D91340D005D3929 /* SinaSportsPopupAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0652D7C31D91340D005D3929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0652D7A71D91340D005D3929 /* SinaSportsPopupAnimation */;
+			targetProxy = 0652D7C21D91340D005D3929 /* PBXContainerItemProxy */;
+		};
+		0652D7CE1D91340D005D3929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0652D7A71D91340D005D3929 /* SinaSportsPopupAnimation */;
+			targetProxy = 0652D7CD1D91340D005D3929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0652D7B41D91340D005D3929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0652D7B51D91340D005D3929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0652D7B91D91340D005D3929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0652D7BA1D91340D005D3929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0652D7D31D91340D005D3929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0652D7D41D91340D005D3929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0652D7D61D91340D005D3929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaSportsPopupAnimation/hdf-PrefixHeader.pch";
+				INFOPLIST_FILE = SinaSportsPopupAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0652D7D71D91340D005D3929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaSportsPopupAnimation/hdf-PrefixHeader.pch";
+				INFOPLIST_FILE = SinaSportsPopupAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0652D7D91D91340D005D3929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaSportsPopupAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaSportsPopupAnimation.app/SinaSportsPopupAnimation";
+			};
+			name = Debug;
+		};
+		0652D7DA1D91340D005D3929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaSportsPopupAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaSportsPopupAnimation.app/SinaSportsPopupAnimation";
+			};
+			name = Release;
+		};
+		0652D7DC1D91340D005D3929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaSportsPopupAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaSportsPopupAnimation;
+			};
+			name = Debug;
+		};
+		0652D7DD1D91340D005D3929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaSportsPopupAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HDF.SinaSportsPopupAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaSportsPopupAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0652D7A31D91340D005D3929 /* Build configuration list for PBXProject "SinaSportsPopupAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0652D7D31D91340D005D3929 /* Debug */,
+				0652D7D41D91340D005D3929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0652D7D51D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0652D7D61D91340D005D3929 /* Debug */,
+				0652D7D71D91340D005D3929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0652D7D81D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0652D7D91D91340D005D3929 /* Debug */,
+				0652D7DA1D91340D005D3929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0652D7DB1D91340D005D3929 /* Build configuration list for PBXNativeTarget "SinaSportsPopupAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0652D7DC1D91340D005D3929 /* Debug */,
+				0652D7DD1D91340D005D3929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0652D7A01D91340D005D3929 /* Project object */;
+}
